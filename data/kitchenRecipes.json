@@ -1,5 +1,7 @@
 [
     {
+        "id": 1,
+        "type": "Trending",
         "name": "Crock Pot Roast",
         "ingredients": [
             {
@@ -44,6 +46,8 @@
         "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
     },
     {
+        "id": 2,
+        "type": "Trending",
         "name": "Roasted Asparagus",
         "ingredients": [
             {
@@ -66,7 +70,6 @@
             "Preheat oven to 425°F.",
             "Cut off the woody bottom part of the asparagus spears and discard.",
             "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
-            "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
             "Sprinkle with salt.",
             "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
             "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
@@ -90,6 +93,8 @@
         "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
     },
     {
+        "id": 3,
+        "type": "Recent",
         "name": "Curried Lentils and Rice",
         "ingredients": [
             {
@@ -135,6 +140,8 @@
         "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
     },
     {
+        "id": 4,
+        "type": "Recent",
         "name": "Big Night Pizza",
         "ingredients": [
             {
@@ -199,6 +206,8 @@
         "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
+        "id": 5,
+        "type": "Trending",
         "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
         "ingredients": [
             {
@@ -256,6 +265,8 @@
         "originalURL": ""
     },
     {
+        "id": 6,
+        "type": "Recent",
         "name": "Mic's Yorkshire Puds",
         "ingredients": [
             {
@@ -305,6 +316,8 @@
         "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg"
     },
     {
+        "id": 7,
+        "type": "Trending",
         "name": "Old-Fashioned Oatmeal Cookies",
         "ingredients": [
             {
@@ -396,6 +409,8 @@
         "originalURL": "#"
     },
     {
+        "id": 8,
+        "type": "Trending",
         "name": "Blueberry Oatmeal Squares",
         "ingredients": [
             {
@@ -469,10 +484,12 @@
             0,
             0
         ],
-        "imageURL": "http://www.canadianliving.com/img/photos/biz/blueberry-oatmeal-squares5801359401371.jpg",
+        "imageURL": "https://n9.cl/bqf9k",
         "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
     },
     {
+        "id": 9,
+        "type": "Recent",
         "name": "Curried chicken salad",
         "ingredients": [
             {
