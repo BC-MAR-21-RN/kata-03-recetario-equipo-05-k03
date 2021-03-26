@@ -43,7 +43,8 @@
             420
         ],
         "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
-        "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
+        "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+        "servings": "for 4 servings"
     },
     {
         "id": 2,
@@ -90,7 +91,8 @@
             0
         ],
         "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-        "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
+        "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847",
+        "servings": "for 3 servings"
     },
     {
         "id": 3,
@@ -137,7 +139,8 @@
             20,
             0
         ],
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
+        "servings": "for 3 servings"
     },
     {
         "id": 4,
@@ -203,12 +206,13 @@
             15,
             0
         ],
-        "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
+        "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg",
+        "servings": "for 2 servings"
     },
     {
         "id": 5,
         "type": "Trending",
-        "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+        "name": "Cranberry and Apple Stuffed",
         "ingredients": [
             {
                 "quantity": "2",
@@ -262,7 +266,8 @@
             0
         ],
         "imageURL": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
-        "originalURL": ""
+        "originalURL": "",
+        "servings": "for 2 servings"
     },
     {
         "id": 6,
@@ -313,12 +318,13 @@
             30
         ],
         "imageURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
-        "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg"
+        "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+        "servings": "for 4 servings"
     },
     {
         "id": 7,
         "type": "Trending",
-        "name": "Old-Fashioned Oatmeal Cookies",
+        "name": "Old-Fashioned Cookies",
         "ingredients": [
             {
                 "quantity": "1 cup",
@@ -406,12 +412,13 @@
             0
         ],
         "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
-        "originalURL": "#"
+        "originalURL": "#",
+        "servings": "for 1 serving"
     },
     {
         "id": 8,
         "type": "Trending",
-        "name": "Blueberry Oatmeal Squares",
+        "name": "Blueberry Squares",
         "ingredients": [
             {
                 "quantity": "2-1/2 cups",
@@ -485,9 +492,11 @@
             0
         ],
         "imageURL": "https://n9.cl/bqf9k",
-        "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
+        "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php",
+        "servings": "for 3 servings"
     },
     {
+
         "id": 9,
         "type": "Recent",
         "name": "Curried chicken salad",
@@ -576,6 +585,7 @@
             0
         ],
         "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-        "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
+        "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/",
+        "servings": "for 2 servings"
     }
 ]

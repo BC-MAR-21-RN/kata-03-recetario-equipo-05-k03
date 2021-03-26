@@ -1,5 +1,5 @@
 import React from 'react';
-import { SearchBar } from 'react-native-elements';
+import SearchBar from 'react-native-search-bar';
 
 export default class SearchBars extends React.Component {
   state = {
@@ -15,9 +15,11 @@ export default class SearchBars extends React.Component {
 
     return (
       <SearchBar
+        ref="searchBar"
         placeholder="What do you want to eat?"
         onChangeText={this.updateSearch}
-        value={search} />
+        value={search}
+        textColor="dimgray" />
     );
   }
 }

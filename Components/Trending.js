@@ -1,55 +1,59 @@
 import React from 'react';
-import { ListItem, Image } from 'react-native-elements'
-import { FlatList, StyleSheet, Text, View, ScrollView } from 'react-native';
+import { ListItem, Image } from 'react-native-elements';
+import { useNavigation } from '@react-navigation/native';
+import { FlatList, StyleSheet, Text, View, TouchableHighlight } from 'react-native';
 import kitchenRecipes from '../data/kitchenRecipes.json'
 
-const Trending = () => {
+export default function Trending(){
+  const navigation = useNavigation(); 
+  
   renderItem = ({ item }) => {
     if(item.type == "Trending"){
-      return <ListItem >
-              <ListItem.Content style={styles.listView}>
-                <View style={styles.subtitleView}>
-                  <Image source={{uri:item.imageURL}} style={styles.ratingImage}/>
-                  <Text style={styles.ratingText}>{item.name}</Text>
-                </View>
-              </ListItem.Content>
-            </ListItem>
+      return <TouchableHighlight onPress={() => {
+                                          navigation.navigate('Detail', {
+                                          type: item.type,
+                                          name: item.name,
+                                          ingredients: item.ingredients,
+                                          image: item.imageURL,
+                                          serving: item.servings})
+                                        }} >
+              <ListItem>
+                <ListItem.Content>
+                  <View style={styles.subtitleView}>
+                    <Image source={{uri:item.imageURL}} style={styles.ratingImage}/>
+                    <Text style={styles.ratingText}>{item.name}</Text>
+                  </View>
+                </ListItem.Content>
+              </ListItem>
+            </TouchableHighlight>
     }
   }
 
-  return (
-    <View style={styles.listView}>
-        <FlatList
-          horizontal
-          data={kitchenRecipes}
-          renderItem={this.renderItem}
-          keyExtractor={item => item.id} />
-    </View>
-  )
-    
+    return (
+      <View>
+          <FlatList
+            horizontal={true}
+            showsHorizontalScrollIndicator={false}
+            data={kitchenRecipes}
+            renderItem={this.renderItem}
+            keyExtractor={item => item.id} />
+      </View>
+    )
 };
 
 const styles = StyleSheet.create({
-  listView:{
-    backgroundColor: 'ghostwhite',
-  },
-  item: {
-    padding: 20,
-    fontSize: 20,
-    height: 44,
-  },
   subtitleView: {
     flexDirection: 'column',
-    justifyContent: 'center'
+    width: 110
   },
   ratingImage: {
-    height: 100,
-    width: 100,
+    height: 110,
+    width: 110,
     borderRadius: 10
   },
   ratingText: {
-    textAlign: 'left'
+    textAlign: 'left',
+    fontSize: 14,
+    marginTop: 5
   }
 });
-
-export default Trending;

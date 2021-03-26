@@ -1,34 +1,14 @@
 import React from 'react';
-import SearchBars  from './Components/SearchBar'
-import Trending  from './Components/Trending'
-import Recent  from './Components/Recent'
-import { ScrollView, StatusBar, StyleSheet, Text, View} from 'react-native';
-import { Colors, DebugInstructions, Header, LearnMoreLinks, ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
+import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+import Navigator from './Navigators/Navigator'
 
-const App = () => {
-  return (
-    <View style={{ flex: 1, backgroundColor: 'ghostwhite'}}>
-      <View>
-        <SearchBars />
-      </View>
-      <View style ={{}}>
-          <Text style={styles.titleList}>Trending</Text>
-        <Trending />
-      </View>
-      <View style ={{}}>
-        <Text style={styles.titleList}>Recent</Text>
-        <Recent />
-      </View>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  titleList: {
-    color: 'darkblue',
-    fontWeight: 'bold',
-    fontSize: 23
+export default class App extends React.Component {
+  render(){
+    return (
+      <NavigationContainer>
+        <Navigator />
+      </NavigationContainer>
+    );
   }
-});
-
-export default App;
+}
