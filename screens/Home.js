@@ -1,24 +1,24 @@
 import React from 'react';
 import SearchBars from '../Components/SearchBar';
-import Trending from '../Components/Trending';
-import Recent from '../Components/Recent';
+import FlatListView from '../Components/FlatList';
 import 'react-native-gesture-handler';
 import {Text, View} from 'react-native';
 import styles from '../styles/styles';
 
 export default function HomeScreen() {
   return (
-    <View style={{flex: 1, backgroundColor: 'white'}}>
+    <View style={styles.containerDetails}>
+      <Text style={styles.titleApp}>Recipe book!</Text>
       <View style={styles.searchBarView}>
         <SearchBars />
       </View>
       <View>
         <Text style={styles.titleList}>Trending</Text>
-        {<Trending />}
+        <FlatListView typeRecipe={'Trending'}/>
       </View>
       <View>
         <Text style={styles.titleList}>Recent</Text>
-        <Recent />
+        <FlatListView typeRecipe={'Recent'}/>
       </View>
     </View>
   );
