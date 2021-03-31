@@ -8,17 +8,19 @@ import styles from '../styles/styles';
 export default function HomeScreen() {
   return (
     <View style={styles.containerDetails}>
-      <Text style={styles.titleApp}>Recipe book!</Text>
-      <View style={styles.searchBarView}>
-        <SearchBars />
+      <View style={styles.containerSearchBar}>
+        <Text style={styles.titleApp}>Recipe book!</Text>
+        <View style={styles.searchBarView}>
+          <SearchBars />
+        </View>
       </View>
       <View>
         <Text style={styles.titleList}>Trending</Text>
-        <FlatListView typeRecipe={'Trending'}/>
+        <FlatListView typeRecipe={'Trending'} />
       </View>
       <View>
         <Text style={styles.titleList}>Recent</Text>
-        <FlatListView typeRecipe={'Recent'}/>
+        <FlatListView typeRecipe={'Recent'} />
       </View>
     </View>
   );

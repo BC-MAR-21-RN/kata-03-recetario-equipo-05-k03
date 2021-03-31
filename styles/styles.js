@@ -2,24 +2,34 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   titleApp: {
-    fontSize: 25,
+    fontSize: 30,
     fontWeight: 'bold',
-    alignSelf: 'flex-start',
-    marginTop: 25,
-    color: 'navy',
+    alignSelf: 'center',
+    marginTop: 20,
+    color: 'black',
     marginHorizontal: 15,
+  },
+  srchBar: {
+    flexDirection: 'row',
+    alignSelf: 'center',
+  },
+  viewSB: {
+    width: 320,
+    height: 40,
+  },
+  microphoneIcon: {
+    alignSelf: 'center',
   },
   searchBarView: {
     width: 360,
-    height: 41,
+    height: 40,
     alignSelf: 'center',
     marginVertical: 25,
-    backgroundColor: '#E8E5E1',
+    backgroundColor: 'ghostwhite',
     borderRadius: 11,
-    padding: 3,
   },
   titleList: {
-    color: 'tomato',
+    color: 'black',
     fontWeight: 'bold',
     fontSize: 23,
     marginLeft: 15,
@@ -121,5 +131,11 @@ export default StyleSheet.create({
   },
   notLike: {
     color: 'white',
+  },
+  containerSearchBar: {
+    backgroundColor: '#F2622E',
+    borderBottomStartRadius: 10,
+    borderBottomEndRadius: 10,
+    marginBottom: 25,
   },
 });
